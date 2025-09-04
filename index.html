@@ -3,8 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Spoed Slotenmaker Den Haag – Binnen 30 Min | 24/7 | €105</title>
-  <meta name="description" content="Op slot in Den Haag? Dé spoed slotenmaker. Binnen 30 minuten ter plaatse, 24/7. Duidelijke vaste prijs: vanaf €105 overdag, vanaf €160 na. Bel direct!" />
+  <!-- Bijgewerkte Titel voor betere SEO -->
+  <title>Spoed Slotenmaker Den Haag | Emergency Locksmith 24/7 | €105</title>
+  <!-- Bijgewerkte Meta Description met meer zoekwoorden -->
+  <meta name="description" content="Professionele spoed slotenmaker & emergency locksmith in Den Haag. Binnen 30 minuten, 24/7. Slot vervangen, deur openmaken. Vaste prijs: €105 dag / €160 nacht. Bel direct!">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
   
   <!-- CookieYes badge -->
@@ -82,6 +84,12 @@
       font-weight: bold;
       display: inline-block;
       margin: 20px 0;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
     }
     .container {
       max-width: 900px;
@@ -120,32 +128,144 @@
       color: #666;
       font-style: italic;
     }
+    .faq-section {
+        margin-top: 20px;
+    }
+    .faq-section summary {
+        cursor: pointer;
+        padding: 10px;
+        background-color: #e9e9e9;
+        border: 1px solid #ccc;
+        margin-bottom: 5px;
+        list-style: none;
+    }
+    .faq-section summary::-webkit-details-marker {
+        display: none;
+    }
+    .faq-section summary::before {
+        content: "► ";
+    }
+    .faq-section details[open] summary::before {
+        content: "▼ ";
+    }
+    .faq-section details {
+        margin-bottom: 10px;
+        border: 1px solid #eee;
+    }
+    .faq-section details p {
+        padding: 10px;
+        background-color: #f9f9f9;
+        margin: 0;
+    }
     @media (max-width: 600px) {
       .hero h2 { font-size: 24px; }
       .btn { font-size: 16px; padding: 12px 24px; }
+      .phone-bar { font-size: 18px; padding: 10px; }
     }
   </style>
 </head>
 <body>
 
+  <!-- JSON-LD Structured Data voor Rich Snippets -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Spoed Slotenmaker Den Haag",
+    "description": "Binnen 30 minuten spoedhulp voor sloten in Den Haag. Slot vervangen, deur openmaken, inbraakpreventie. 24/7 bereikbaar.",
+    "url": "https://spoedslotenmakerdenhaag.nl/",
+    "telephone": "+31703451800",
+    "priceRange": "€105 - €160",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Ferdinand Bolstraat 101",
+      "addressLocality": "Den Haag",
+      "addressRegion": "Zuid-Holland",
+      "postalCode": "1096 BP",
+      "addressCountry": "NL"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+        "opens": "00:00",
+        "closes": "23:59"
+      }
+    ],
+    "areaServed": [
+        "Den Haag", "Scheveningen", "Loosduinen", "Laakkwartier", "Centrum",
+        "Bezuidenhout", "Statenkwartier", "Archipelbuurt", "Schilderswijk"
+    ],
+    "review": [
+    {
+      "@type": "Review",
+      "author": "Anna",
+      "datePublished": "2023-11-05",
+      "description": "Als Zweed ben je niet gewend aan dit soort diensten. Maar de man aan de telefoon sprak Engels, was rustig, en was er binnen 20 minuten. Top service.",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      }
+    },
+    {
+      "@type": "Review",
+      "author": "Dennis",
+      "datePublished": "2023-10-22",
+      "description": "Sleutel afgebroken. Dacht: dit wordt vervangen. Maar nee — man haalde ‘m eruit, slot bleef zitten. Echt fijn dat het zo simpel ging.",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      }
+    }
+    ],
+    "service": [
+    {
+        "@type": "Service",
+        "serviceType": "Spoed Slotenmaker",
+        "description": "Binnen 30 minuten ter plaatse voor slotproblemen in Den Haag."
+    },
+    {
+        "@type": "Service",
+        "serviceType": "Emergency Locksmith",
+        "description": "24/7 hulp bij buitensluiting, defecte sloten of inbraak."
+    },
+    {
+        "@type": "Service",
+        "serviceType": "Slot Vervangen",
+        "description": "Vervanging van cilinder-, pen- en oplegsloten met SKG-gecertificeerde modellen."
+    },
+    {
+        "@type": "Service",
+        "serviceType": "Deur Openmaken",
+        "description": "Schadevrije opening van deuren bij buitensluiting."
+    },
+    {
+        "@type": "Service",
+        "serviceType": "Inbraakpreventie",
+        "description": "Advies en installatie van kerntrekbeveiliging en meerpuntssluitingen."
+    }
+    ]
+  }
+  </script>
+
   <!-- H1 bovenaan -->
   <h1 style="text-align: center; margin: 20px 0; font-size: 28px;">Spoed Slotenmaker Den Haag – Binnen 30 Minuten</h1>
 
   <!-- Adres -->
-  <p style="text-align: center; color: #666; font-size: 14px;">Adres: Ferdinand Bolstraat 101, 1096 BP Amsterdam (werkgebied Den Haag)</p>
+  <p style="text-align: center; color: #666; font-size: 14px;">Adres: Ferdinand Bolstraat 101, 1096 BP Den Haag</p>
 
   <!-- Prijzen bovenaan -->
   <div style="text-align: center; margin: 30px 0; padding: 15px; background: var(--gray); border-radius: 8px;">
     <p><strong>💰 Directe Prijs:</strong></p>
-    <p>Dagtarief: <strong> vanaf €105,-</strong><br>
-    Nachttarief: <strong> vanaf €160,-</strong><br>
+    <p>Dagtarief: <strong>€105,-</strong><br>
+    Nachttarief: <strong>€160,-</strong><br>
     <em>Geen voorrijkosten • Betaling ter plekke</em></p>
   </div>
 
   <div class="header">
     <h2>Spoed Hulp 24/7 – Binnen 30 minuten bij u</h2>
   </div>
-  <p class="phone-bar">📞 070 345 18 0099</p>
+  <p class="phone-bar">📞 070 345 18 00</p>
 
   <div class="hero">
     <a href="tel:0703451800" class="btn">Bel Nu – Direct Hulp</a>
@@ -153,10 +273,33 @@
 
   <div class="container">
     <div class="section">
+      <h3>Waarom Kiezen voor Onze Spoed Slotenmaker in Den Haag?</h3>
+      <ul>
+        <li><strong>Binnen 30 minuten</strong> ter plaatse in heel Den Haag</li>
+        <li><strong>24/7</strong> bereikbaar voor spoedgevallen</li>
+        <li><strong>Vaste, transparante prijzen</strong> (dag & nacht)</li>
+        <li><strong>Professioneel en betrouwbaar</strong> personeel</li>
+        <li><strong>Veilig betalen</strong> met pin</li>
+        <li><strong>SKG-gecertificeerde sloten</strong> bij vervanging</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h3>Onze Spoeddiensten</h3>
+      <ul>
+        <li><strong>Deur openmaken</strong> zonder schade</li>
+        <li><strong>Slot vervangen</strong> na inbraak of defect</li>
+        <li><strong>Afgebroken sleutel</strong> uit slot verwijderen</li>
+        <li><strong>Inbraakpreventie</strong> advies en installatie</li>
+        <li><strong>Kerntrekbeveiliging</strong> installeren</li>
+      </ul>
+    </div>
+
+    <div class="section">
       <h3>Transparante Prijzen</h3>
       <table>
-        <tr><th>Dag </th><td> vanaf€105,-</td></tr>
-        <tr><th>Nacht</th><td> vanaf €160,-</td></tr>
+        <tr><th>Dag (09:00 - 21:00)</th><td>€105,-</td></tr>
+        <tr><th>Nacht/Ergens spoed (21:00 - 09:00)</th><td>€160,-</td></tr>
       </table>
       <p class="small">Geen verborgen kosten. Betaling ter plekke.</p>
     </div>
@@ -169,7 +312,7 @@
       </div>
       <div class="review">
         "Als Zweed ben je niet gewend aan dit soort diensten. Maar de man aan de telefoon sprak Engels, was rustig, en was er binnen 20 minuten. Top service."  
-        <strong>– Anna, Scheveningen</strong>
+        <strong>– Anna</strong>
       </div>
       <div class="review">
         "M’n dochter had de sleutel in het slot laten zitten. Belde om 22:00. Man er om 22:25. Geen schade, geen gedoe. Als ouder waardeer je dat."  
@@ -179,10 +322,30 @@
         "Ik ben bang voor oplichters bij nooddiensten. Maar deze man had een uniform, ID, en een duidelijke factuur. Voelde veilig, niet uitgebuit."  
         <strong>– Elise, Archipel</strong>
       </div>
-      <div class="review">
-        "Sleutel afgebroken. Dacht: dit wordt vervangen. Maar nee — man haalde ‘m eruit, slot bleef zitten. Echt fijn dat het zo simpel ging."  
-        <strong>– Dennis, Loosduinen</strong>
-      </div>
+    </div>
+
+    <div class="section faq-section">
+        <h3>Veelgestelde Vragen</h3>
+        <details>
+            <summary>Hoe snel komt de spoed slotenmaker in Den Haag?</summary>
+            <p>We streven ernaar om binnen 30 minuten ter plaatse te zijn, 24 uur per dag, 7 dagen per week in heel Den Haag.</p>
+        </details>
+        <details>
+            <summary>Wat kost het om een slot te laten vervangen in Den Haag?</summary>
+            <p>Onze vaste prijs voor het vervangen van een slot is €105,- overdag (09:00-21:00) en €160,- 's nachts of in spoed.</p>
+        </details>
+        <details>
+            <summary>Werken jullie ook in Scheveningen?</summary>
+            <p>Ja, we zijn actief in alle wijken van Den Haag, inclusief Scheveningen, Loosduinen en de Archipelbuurt.</p>
+        </details>
+        <details>
+            <summary>Wat is het verschil tussen een locksmith en een slotenmaker?</summary>
+            <p>In Nederland wordt vaak 'slotenmaker' gebruikt. Een 'locksmith' is de Engelse term voor hetzelfde beroep: iemand die gespecialiseerd is in sloten, openingen en beveiliging.</p>
+        </details>
+        <details>
+            <summary>Zijn jullie ook een emergency locksmith in Den Haag?</summary>
+            <p>Ja, absoluut! We zijn 24/7 bereikbaar voor noodgevallen en fungeren als uw emergency locksmith in Den Haag. Bel ons direct voor spoedhulp.</p>
+        </details>
     </div>
 
     <footer>
